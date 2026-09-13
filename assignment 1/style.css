@@ -1,0 +1,301 @@
+/* main stuff */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b2838;
+    color: #c7d5e0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* tut header */
+
+#raccoon-city {
+    background-color: #171a21;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 3px solid #66c0f4;
+}
+
+#raccoon-city h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+#raccoon-city h2 {
+    margin: 5px 0;
+    font-size: 22px;
+    font-weight: normal;
+    color: #66c0f4;
+}
+
+#raccoon-city p {
+    margin-top: 8px;
+    color: #8f98a0;
+}
+
+
+/* menu */
+
+.leon-nav {
+    margin-top: 20px;
+}
+
+.leon-nav a {
+    color: #c7d5e0;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.leon-nav a:hover {
+    background-color: #2a475e;
+    color: #ffffff;
+}
+
+
+/* vse chto po centre */
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+/* cards */
+
+.leon-card {
+    background-color: #16202d;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #2a475e;
+    border-radius: 4px;
+}
+
+.leon-card h2 {
+    color: #ffffff;
+    margin-top: 0;
+    border-bottom: 1px solid #2a475e;
+    padding-bottom: 8px;
+}
+
+.leon-card h3 {
+    color: #66c0f4;
+}
+
+
+/* tut about me */
+
+#jill {
+    border-left: 5px solid #66c0f4;
+}
+
+
+/* text */
+
+p {
+    color: #c7d5e0;
+}
+
+
+/* avatar */
+
+.ashley-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 3px solid #2a475e;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* lists */
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* my steam library */
+
+.game-library {
+    margin-top: 20px;
+}
+
+.game-card {
+    background-color: #1b2838;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-left: 4px solid #66c0f4;
+}
+
+.game-card:hover {
+    background-color: #2a475e;
+}
+
+.game-card img {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 15px;
+    border: 1px solid #3b5268;
+}
+
+.game-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.game-info h3 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.game-info p {
+    margin: 2px 0;
+    color: #8f98a0;
+}
+
+.game-info span {
+    font-size: 14px;
+    color: #66c0f4;
+}
+
+
+/* links */
+
+.ada-links a {
+    color: #66c0f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ada-links a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+/* tut schedule */
+
+.wesker-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #1b2838;
+}
+
+.wesker-table th,
+.wesker-table td {
+    border: 1px solid #2a475e;
+    padding: 12px;
+    text-align: left;
+}
+
+.wesker-table th {
+    background-color: #2a475e;
+    color: #ffffff;
+}
+
+.wesker-table tr:hover {
+    background-color: #22384a;
+}
+
+
+/* mood */
+
+.rebecca-mood {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1b2838;
+    padding: 15px;
+    border-left: 4px solid #66c0f4;
+}
+
+
+/* buttons */
+
+.nemesis-button {
+    background-color: #5c7e10;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 18px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nemesis-button:hover {
+    background-color: #75a300;
+}
+
+
+/* form */
+
+.chris-form {
+    margin-top: 20px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.form-row input {
+    width: 95%;
+    padding: 9px;
+    background-color: #1b2838;
+    color: #ffffff;
+    border: 1px solid #2a475e;
+    border-radius: 3px;
+}
+
+.form-row input[type="color"] {
+    width: 60px;
+    height: 40px;
+    padding: 3px;
+}
+
+
+/* focus */
+
+a:focus,
+button:focus,
+input:focus {
+    outline: 2px solid #66c0f4;
+    outline-offset: 2px;
+}
+
+
+/* niz */
+
+.resident-footer {
+    background-color: #171a21;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #2a475e;
+}
+
+.resident-footer p {
+    margin: 0;
+    color: #8f98a0;
+}
